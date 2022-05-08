@@ -30,7 +30,7 @@
                 <a href="#content" class="nav-link">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a href="#signinmenu" class="nav-link">LOG IN</a>
+                <a href="#signin" class="nav-link">LOG IN</a>
               </li>
               <li class="nav-item">
                 <a href="#portfolio" class="nav-link">PORTFOLIO</a>
@@ -79,7 +79,7 @@
         <img class="col-md-3 col-sm-4" id="photo" src="https://optinmonster.com/wp-content/uploads/2017/10/best-website-builder-for-small-business-min.png" alt="">
       </div>
     </div>
-    <div class="container" id="signinmenu">
+    <div class="container" id="signin">
       <form class="container" action="index.html" method="post">
         <h3 class="signup">GET STARTED</h3>
         <hr style="color:white">
@@ -99,9 +99,21 @@
         <div class="form-group">
           <button id="signin" class="btn btn-primary" name="button">Sign up</button>
         </div>
+        <!-- <script type="text/javascript">
+        document.getElementById('signin').onclick = function(){
+          $('label.name').each(function(){
+                  var labelTxt = $(this).text();
+                  var labelForTxt = $(this).attr('for');
+                  var inputVal = $('#'+labelForTxt).val();
+                  alert("Hey "+inputVal+"! Thanks for signing up");
+              });
+        }
+        </script> -->
         <hr style="color:white">
       </form>
     </div>
+      <!-- <br> -->
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
